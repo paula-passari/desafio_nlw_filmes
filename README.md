@@ -1,2 +1,4 @@
-# desafio_nlw_explorer
-Desafio proposto na NLW eSports da Rocketseat
+# Desafio Extra NLW Meus Filmes e Séries
+
+> Trilha Explorer
+Desafio proposto na NLW eSports da Rocketseat. Criar uma lista de filme e séries
