@@ -17,7 +17,7 @@ body {
 
 /* centralização */
 main {
-    max-width: 560px;
+    max-width: 580px;
     width: 90%;
     margin: 32px auto;
     display: flex;
@@ -28,8 +28,15 @@ main {
 section {
     background: rgb(157,8,11);
     background: linear-gradient(90deg, rgba(157,8,11,1) 0%, rgba(96,7,7,1) 42%, rgba(7,4,56,1) 88%);
-    padding: 4px;
-    border-radius: 10px;
+    padding-top: 5px;
+    border-radius: 8px;
+}
+
+section div {
+    background-color: #2A2634;
+    border-radius: 8px;
+    padding: 32px;
+    padding-top: 24px;
 }
 
 section h2 {
@@ -85,4 +92,21 @@ header div {
 header div img {
     width: 100%;
     border-radius: 80%;
+}
+
+/* transição */
+header div {
+    transition: transform .5s;
+}
+
+header div:hover {
+    transform: scale(1.1);
+}
+
+section ul li {
+    transition: transform .7s;
+}
+
+section ul li:hover {
+    transform: scale(2.2);
 }
