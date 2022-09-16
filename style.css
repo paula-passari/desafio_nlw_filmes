@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 160%;
+}
+
+/* background */
+body {
+    background-image: url(./assets/Fundo.jpg);
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #121214;
+}
+
+/* centralização */
+main {
+    max-width: 560px;
+    width: 90%;
+    margin: 32px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px
+}
+
+section {
+    background: rgb(157,8,11);
+    background: linear-gradient(90deg, rgba(157,8,11,1) 0%, rgba(96,7,7,1) 42%, rgba(7,4,56,1) 88%);
+    padding: 4px;
+    border-radius: 10px;
+}
+
+section h2 {
+    color: whitesmoke;
+}
+
+section p {
+    letter-spacing: -0.18px;
+    color: #C1C1C1;
+}
+
+/* listas */
+section ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 21px;
+    gap: 16px;
+}
+
+.lista-filmes img {
+    width: 90px;
+    border-radius: 8px;
+}
+
+.lista-series img {
+    width: 90px;
+    border-radius: 8px;
+}
+
+.lista-network img {
+    width: 32px;
+}
+
+
+/* header */
+header {
+    padding-top: 32px;
+    height: calc(120px + 32px);
+}
+
+header div {
+    width: 120px;
+    margin: auto;
+    display: flex;
+    padding: 4px;
+    background: rgb(157,8,11);
+    background: linear-gradient(90deg, rgba(157,8,11,1) 0%, rgba(96,7,7,1) 42%, rgba(7,4,56,1) 88%); ;
+    border-radius: 50%;
+
+}
+
+header div img {
+    width: 100%;
+    border-radius: 80%;
+}
